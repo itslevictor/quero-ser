@@ -1,8 +1,7 @@
 ## Criptografia na rede do navio
-
-
-A intelitrader foi contratada para traduzir uma mensagem capturada na rede de um navio e ela está criptografada. Não sabemos que tipo de criptografia eles usaram, a única coisa que sabemos até agora, é que, a cada 8 bits, os dois últimos estão invertidos e a cada 4 bits, os 4 bits foram trocados com os próximos 4.
-
+A intelitrader foi contratada para traduzir uma mensagem capturada na rede de um navio e ela está criptografada. Não sabemos que tipo de criptografia eles usaram, a única coisa que sabemos até agora, é que:
+a cada 8 bits, os dois últimos estão invertidos e
+a cada 4 bits, os 4 bits foram trocados com os próximos 4.
 
 #### Mensagem criptografada:
 10010110
