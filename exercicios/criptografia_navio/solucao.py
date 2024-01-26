@@ -85,5 +85,15 @@ def listaParaBinario(lista4):
         else:
             listaMomento.append(letra)
     return listaNova
+    
+def binarioParaTexto(binario):
+    texto = ""
+    for i in range(0, len(binario), 8):
+        caractereBinario = binario[i:i+8]
+        caractereDecimal = int(caractereBinario, 2)
+        texto += chr(caractereDecimal)
+    return texto
+
+
 lista_exemplo = processa_lista1(textoParaLista(lista_texto))
-print("conversao\n",textoParaBinario(listaParaTexto(processa_lista2(processa_lista1(textoParaLista(lista_texto))))),"\nVersao sem criptografar","10010110111101110101011000000001000101110010011001010111000000010001011101110110010101110011011011110111110101110101011100000011")
+print("conversao\n",listaParaTexto(processa_lista2(processa_lista1(textoParaLista(lista_texto)))),"\nVersao sem criptografar","10010110111101110101011000000001000101110010011001010111000000010001011101110110010101110011011011110111110101110101011100000011\n","Versao traduzida\n",binarioParaTexto(listaParaTexto(processa_lista2(processa_lista1(textoParaLista(lista_texto))))))
