@@ -7,7 +7,6 @@ def processa_lista1(lista):
     contador=0
     contador2=1
     for item in lista:
-        print("processa lista 1 -",contador2)
         contador2+=1
         lista_ordenada.append(item)
         contador+=1
@@ -30,7 +29,6 @@ def processa_lista2(lista):
     for item in lista:
         contador +=1
         contadorGeral +=1
-        print("processa lista 2 -",contadorGeral)
         if contador >= 5 : contador = 1
         if (contador < 5 and alternador == True):
             quatro1.append(item)
@@ -87,4 +85,5 @@ def listaParaBinario(lista4):
         else:
             listaMomento.append(letra)
     return listaNova
-print("conversao\n",textoParaBinario(listaParaTexto(processa_lista2(processa_lista1(textoParaLista(lista_texto))))),"\nVersao sem criptografar","10010110111101110101011000000001000101110010011001010111000000010001011101110110010101110011011011110111110101110101011100000011","\nultimo",listaParaTexto(processa_lista2(processa_lista1(textoParaLista(lista_texto)))))
+lista_exemplo = processa_lista1(textoParaLista(lista_texto))
+print("conversao\n",textoParaBinario(listaParaTexto(processa_lista2(processa_lista1(textoParaLista(lista_texto))))),"\nVersao sem criptografar","10010110111101110101011000000001000101110010011001010111000000010001011101110110010101110011011011110111110101110101011100000011")
