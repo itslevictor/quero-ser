@@ -84,7 +84,7 @@ def listaParaBinario(lista4):
             contador = 0
         else:
             listaMomento.append(letra)
-    return listaNova
+    return listaBinaria
     
 def binarioParaTexto(binario):
     texto = ""
