@@ -1,3 +1,6 @@
+# Resposta no link abaixo
+https://playcode.io/1739371
+
 ## Livro de ofertas
 
 Parabéns!! você foi contratado por uma corretora para montar  um sistema de livro de ofertas de vendas e compras.  
