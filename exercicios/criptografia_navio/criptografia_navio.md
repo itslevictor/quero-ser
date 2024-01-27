@@ -1,3 +1,6 @@
+# Resposta no link abaixo
+https://playcode.io/1739371
+
 ## Criptografia na rede do navio
 A intelitrader foi contratada para traduzir uma mensagem capturada na rede de um navio e ela está criptografada. Não sabemos que tipo de criptografia eles usaram, a única coisa que sabemos até agora, é que:
 a cada 8 bits, os dois últimos estão invertidos e
