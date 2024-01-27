@@ -1,3 +1,6 @@
+# Resposta no link abaixo
+https://playcode.io/1739371
+
 ## Menor distância de dois arrays
 
 João estava participando de uma competição de programação e lhe foi dado um problema em que ele tinha que encontrar a menor distância entre dois números
